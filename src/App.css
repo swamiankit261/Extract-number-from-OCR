@@ -1,0 +1,45 @@
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid gold;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+.text {
+  width: 100%;
+  color: aqua;
+  text-align: center;
+  overflow: auto;
+  animation-name: input;
+  animation-duration: 2000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes input {
+  from {
+    color: white;
+    text-shadow: 1px 0px 0px black;
+  }
+
+  to {
+    color: black;
+    text-shadow: 1px 0px white;
+  }
+}
+
+.inputAnd {
+  background-image: url('./Components/Images/download.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circle-div {
+  width: 60px;
+  height: 60px;
+}

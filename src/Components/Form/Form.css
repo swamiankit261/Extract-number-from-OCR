@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Cormorant+Garamond:wght@300&family=Josefin+Sans:wght@100&family=PT+Serif&family=Poppins:ital,wght@1,100;1,200&family=Roboto:wght@100;300&display=swap');
+
+body {
+    font-family: sans-serif;
+}
+
+.form-input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(245, 208, 2);
+}
+
+.form-input2 {
+    border-bottom: 2px solid green;
+}
+
+.form-input3 {
+    border-bottom: 2px solid aqua;
+}
+
+.form-input::placeholder {
+    /* font-family: Serif; */
+    font-family: ' Serif', cursive;
+}
+
+.inpu-div {
+    position: relative;
+    top: 0px;
+}
+
+.error {
+    color: red;
+    position: absolute;
+    top: 88px;
+}
+
+.mt-error {
+    color: red;
+    position: absolute;
+    top: 72px;
+    left: 255px;
+}
+
+.mtg-error {
+    color: red;
+    position: absolute;
+    top: 20px;
+    /* left: 255px; */
+}
+
+.mto-error {
+    color: red;
+    position: absolute;
+    top: 35px;
+    left: 290px;
+}
